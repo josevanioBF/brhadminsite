@@ -1,0 +1,135 @@
+/*ESTILO DA PAGINA INDEX */
+.bem{
+    margin-left:31px;
+    
+    margin-top: 20px;
+}
+.bem h2{
+  font-size: 16px;
+}
+.dash_principal{
+    margin-top: 20px;
+  }
+  
+.dash_principal li{
+padding: 8px;
+}
+
+.dash_principal label {
+color: #F7F7F7;
+
+}
+
+.dash1{
+    width: 200px;
+    height: 100px;
+    background-color: #25A200;
+    border-radius: 15px;
+  }
+  .dash1 label{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 22px;
+    color: #F7F7F7;
+  }
+  
+  .dash1 h3{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #F7F7F7;
+  }
+
+  .dash2{
+    width: 200px;
+    height: 100px;
+    background-color: #FF0014;
+    border-radius: 15px;
+  }
+
+  .dash2 label{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 22px;
+    color: #F7F7F7;
+  }
+  
+  .dash2 h3{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #F7F7F7;
+  }
+  
+  .dash3{
+    width: 200px;
+    height: 100px;
+    background-color: #5D06A2;
+    border-radius: 15px;
+  }
+  .dash3 label{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 22px;
+    color: #F7F7F7;
+  }
+  
+  .dash3 h3{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #F7F7F7;
+  }
+  
+  .dash4{
+    width: 200px;
+    height: 100px;
+    background-color: #FF7F00;
+    border-radius: 15px;
+  }
+
+  .dash4 label{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 22px;
+    
+  }
+  
+  .dash4 h3{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #F7F7F7;
+  }
+  
+  .dash_bottom{
+    position: absolute;
+    bottom: -100px;
+    margin-left: 20px;
+  }
+  .dash_bottom h1{
+    font-size: 18px;
+    margin-left:10px;
+  }
+  
+  .dash_bottom_iten{
+    width: 600px;
+    border-radius: 15px;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dash_bottom_iten label{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .valor{
+    background-color: #034F93; 
+    color: #fff; 
+    width: 250px; 
+    text-align: center; 
+    margin-left: 47px;
+  }
+
+  .grafico{
+    color: #25A200;
+  }

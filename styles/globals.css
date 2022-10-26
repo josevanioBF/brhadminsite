@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+}
+
+
+header {
+    height: 8rem;
+    box-shadow: 0 0 .1rem .1rem rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: #FFFFFF; 
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+aside{
+  max-width: 30rem;
+  width: 100%;
+  background-color: #0061b8;
+  min-height: 100vh;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 6rem;
+  padding: 2rem;
+}
+section {
+  background-color: #F7F7F7;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin-left: 30rem;
+  margin-top: 6rem;
+  padding: 2rem;
+  
+}
+
+.logo{
+  margin-top: -40px;
+  position: fixed;
+  padding-left: 50px;
+}
+
+.right-side {
+  display: inline;
+  float: right;
+  margin-right: 100px;
+  text-align: right;
+  margin-top: 12px;
+
+  }
+
+  .right-side a{
+    color: black;
+    text-decoration: none; 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    size: 10rem;
+}
+
+li{
+  display: inline-block; 
+  list-style-type: none;
+}
+
+.icon{
+  font-size: 20px;
+}
+
+.profile-pic {
+    left:0;
+    float:left;
+    width:50px;
+ }
+ 
+ .profilepic {
+  height:40px;
+  width:40px;
+  border-radius:50px;
+  margin-top: -15px;
+}
+
+.profile-name {
+  margin-left:60px;
+  top:0;
+  font-size: 14px;
+  margin-top: 12px;
+  
+}
+
+nav{
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.side-bar.active{
+  left: 0;
+}
+
+.side-bar .menu{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.side-bar .menu .item{
+  position:relative;
+  cursor:pointer;
+}
+
+.side-bar .menu .item a{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 20px;
+  line-height: 40px;
+}
+
+.side-bar .menu .item a:hover{
+  background: #FFFFFF;
+  
+  transition: 0.2s ease;
+  color: #034F93;
+  border-radius: 30px;
+
+}
+
+.side-bar .menu .item a .dropdown{
+  position: absolute;
+  right:0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu{
+  background: rgba(255,255,255 , 0.1);
+  display:none;
+}
+
+.side-bar .menu .item .sub-menu a{
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.rotate{
+  transform: rotate(90deg);
+}
+
+.notify{
+  width:15px; 
+  height: 19px; 
+  text-align: center;
+   border-radius: 10px; 
+   margin-left: -3px;
+}
+
+.notify h4{
+  margin-left: -3px; 
+  margin-top: -5px;
+}
+
+#modal_effect {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.486);
+    z-index: 9999;
+}
